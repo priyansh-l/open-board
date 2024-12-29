@@ -1,4 +1,5 @@
 // const { Socket } = require("socket.io");
+const socket = io("https://open-board-dc8n.onrender.com/");
 
 let canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
